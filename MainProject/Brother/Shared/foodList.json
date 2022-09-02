@@ -1,0 +1,52 @@
+{
+    "food": [
+        {
+            "id": 1,
+            "name": "Mutton Briyani",
+            "price": "199",
+            "isVeg": false,
+            "isAvailable": true,
+            "image": "briyaniPot"
+        },
+        {
+            "id": 2,
+            "name": "Fish Fry",
+            "price": "149",
+            "isVeg": false,
+            "isAvailable": true,
+            "image": "fish"
+        },
+        {
+            "id": 3,
+            "name": "Veg meals",
+            "price": "99",
+            "isVeg": true,
+            "isAvailable": true,
+            "image": "northMeals"
+        },
+        {
+            "id": 4,
+            "name": "Prawn Briyani",
+            "price": "199",
+            "isVeg": false,
+            "isAvailable": false,
+            "image": "briyaniPot"
+        },
+        {
+            "id": 5,
+            "name": "Masala Dosa",
+            "price": "99",
+            "isVeg": true,
+            "isAvailable": false,
+            "image": "dosa"
+        },
+        {
+            "id": 6,
+            "name": "Chicken Briyani",
+            "price": "149",
+            "isVeg": false,
+            "isAvailable": true,
+            "image": "briyaniPot"
+        }
+    ]
+}

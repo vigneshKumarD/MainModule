@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F189D0028B7ED9900CAB084 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F189CFF28B7ED9900CAB084 /* CheckoutView.swift */; };
+		2F189D0328B7F24900CAB084 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F189D0228B7F24900CAB084 /* Utilities.swift */; };
+		2F297A6F28BA2D6B003975D2 /* MyOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F297A6E28BA2D6B003975D2 /* MyOrdersView.swift */; };
+		2F4BCD1D28B162F7002B2429 /* ThambiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BCD0D28B162F3002B2429 /* ThambiApp.swift */; };
+		2F4BCD1E28B162F7002B2429 /* ThambiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BCD0D28B162F3002B2429 /* ThambiApp.swift */; };
+		2F4BCD1F28B162F7002B2429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BCD0E28B162F3002B2429 /* ContentView.swift */; };
+		2F4BCD2028B162F7002B2429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BCD0E28B162F3002B2429 /* ContentView.swift */; };
+		2F4BCD2128B162F7002B2429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4BCD0F28B162F7002B2429 /* Assets.xcassets */; };
+		2F4BCD2228B162F7002B2429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4BCD0F28B162F7002B2429 /* Assets.xcassets */; };
+		2F4BCD2C28B16347002B2429 /* HotelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BCD2B28B16347002B2429 /* HotelListView.swift */; };
+		2FBB78B028B3FC3C000EC60C /* IntermediateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB78AF28B3FC3C000EC60C /* IntermediateView.swift */; };
+		2FEECF9228B655D2003A9937 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEECF9128B655D2003A9937 /* MenuListView.swift */; };
+		2FEECF9628B68AD9003A9937 /* foodList.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FEECF9528B68AD9003A9937 /* foodList.json */; };
+		2FEECF9828B68AEC003A9937 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEECF9728B68AEC003A9937 /* FoodListViewModel.swift */; };
+		2FF968DA28B1CD03004B376B /* HotelListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF968D928B1CD03004B376B /* HotelListViewCell.swift */; };
+		2FF968DC28B1FFF5004B376B /* FoodItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF968DB28B1FFF5004B376B /* FoodItemListView.swift */; };
+		2FF968DE28B20598004B376B /* FoodItemListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF968DD28B20598004B376B /* FoodItemListViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F189CFF28B7ED9900CAB084 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		2F189D0228B7F24900CAB084 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2F297A6E28BA2D6B003975D2 /* MyOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersView.swift; sourceTree = "<group>"; };
+		2F4BCD0D28B162F3002B2429 /* ThambiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThambiApp.swift; sourceTree = "<group>"; };
+		2F4BCD0E28B162F3002B2429 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F4BCD0F28B162F7002B2429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F4BCD1428B162F7002B2429 /* Thambi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thambi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4BCD1A28B162F7002B2429 /* Thambi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thambi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4BCD1C28B162F7002B2429 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2F4BCD2B28B16347002B2429 /* HotelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListView.swift; sourceTree = "<group>"; };
+		2FBB78AF28B3FC3C000EC60C /* IntermediateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateView.swift; sourceTree = "<group>"; };
+		2FEECF9128B655D2003A9937 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		2FEECF9528B68AD9003A9937 /* foodList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodList.json; sourceTree = "<group>"; };
+		2FEECF9728B68AEC003A9937 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
+		2FF968D928B1CD03004B376B /* HotelListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListViewCell.swift; sourceTree = "<group>"; };
+		2FF968DB28B1FFF5004B376B /* FoodItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemListView.swift; sourceTree = "<group>"; };
+		2FF968DD28B20598004B376B /* FoodItemListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemListViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F4BCD1128B162F7002B2429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BCD1728B162F7002B2429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F189D0128B7F24200CAB084 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2F189D0228B7F24900CAB084 /* Utilities.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2F4BCD0728B162F3002B2429 = {
+			isa = PBXGroup;
+			children = (
+				2F4BCD0C28B162F3002B2429 /* Shared */,
+				2F4BCD1B28B162F7002B2429 /* macOS */,
+				2F4BCD1528B162F7002B2429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F4BCD0C28B162F3002B2429 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2F189D0128B7F24200CAB084 /* Helper */,
+				2F4BCD0D28B162F3002B2429 /* ThambiApp.swift */,
+				2F4BCD0E28B162F3002B2429 /* ContentView.swift */,
+				2FEECF9128B655D2003A9937 /* MenuListView.swift */,
+				2F297A6E28BA2D6B003975D2 /* MyOrdersView.swift */,
+				2FBB78AF28B3FC3C000EC60C /* IntermediateView.swift */,
+				2F4BCD0F28B162F7002B2429 /* Assets.xcassets */,
+				2F4BCD2B28B16347002B2429 /* HotelListView.swift */,
+				2FF968D928B1CD03004B376B /* HotelListViewCell.swift */,
+				2FF968DB28B1FFF5004B376B /* FoodItemListView.swift */,
+				2FF968DD28B20598004B376B /* FoodItemListViewCell.swift */,
+				2F189CFF28B7ED9900CAB084 /* CheckoutView.swift */,
+				2FEECF9728B68AEC003A9937 /* FoodListViewModel.swift */,
+				2FEECF9528B68AD9003A9937 /* foodList.json */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2F4BCD1528B162F7002B2429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BCD1428B162F7002B2429 /* Thambi.app */,
+				2F4BCD1A28B162F7002B2429 /* Thambi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F4BCD1B28B162F7002B2429 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BCD1C28B162F7002B2429 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F4BCD1328B162F7002B2429 /* Thambi (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4BCD2528B162F7002B2429 /* Build configuration list for PBXNativeTarget "Thambi (iOS)" */;
+			buildPhases = (
+				2F4BCD1028B162F7002B2429 /* Sources */,
+				2F4BCD1128B162F7002B2429 /* Frameworks */,
+				2F4BCD1228B162F7002B2429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thambi (iOS)";
+			productName = "Thambi (iOS)";
+			productReference = 2F4BCD1428B162F7002B2429 /* Thambi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F4BCD1928B162F7002B2429 /* Thambi (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4BCD2828B162F7002B2429 /* Build configuration list for PBXNativeTarget "Thambi (macOS)" */;
+			buildPhases = (
+				2F4BCD1628B162F7002B2429 /* Sources */,
+				2F4BCD1728B162F7002B2429 /* Frameworks */,
+				2F4BCD1828B162F7002B2429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thambi (macOS)";
+			productName = "Thambi (macOS)";
+			productReference = 2F4BCD1A28B162F7002B2429 /* Thambi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F4BCD0828B162F3002B2429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2F4BCD1328B162F7002B2429 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2F4BCD1928B162F7002B2429 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F4BCD0B28B162F3002B2429 /* Build configuration list for PBXProject "Thambi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F4BCD0728B162F3002B2429;
+			productRefGroup = 2F4BCD1528B162F7002B2429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F4BCD1328B162F7002B2429 /* Thambi (iOS) */,
+				2F4BCD1928B162F7002B2429 /* Thambi (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4BCD1228B162F7002B2429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BCD2128B162F7002B2429 /* Assets.xcassets in Resources */,
+				2FEECF9628B68AD9003A9937 /* foodList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BCD1828B162F7002B2429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BCD2228B162F7002B2429 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F4BCD1028B162F7002B2429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BCD1F28B162F7002B2429 /* ContentView.swift in Sources */,
+				2FEECF9228B655D2003A9937 /* MenuListView.swift in Sources */,
+				2F189D0028B7ED9900CAB084 /* CheckoutView.swift in Sources */,
+				2FEECF9828B68AEC003A9937 /* FoodListViewModel.swift in Sources */,
+				2FF968DA28B1CD03004B376B /* HotelListViewCell.swift in Sources */,
+				2F4BCD1D28B162F7002B2429 /* ThambiApp.swift in Sources */,
+				2FF968DE28B20598004B376B /* FoodItemListViewCell.swift in Sources */,
+				2FBB78B028B3FC3C000EC60C /* IntermediateView.swift in Sources */,
+				2F4BCD2C28B16347002B2429 /* HotelListView.swift in Sources */,
+				2F297A6F28BA2D6B003975D2 /* MyOrdersView.swift in Sources */,
+				2F189D0328B7F24900CAB084 /* Utilities.swift in Sources */,
+				2FF968DC28B1FFF5004B376B /* FoodItemListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BCD1628B162F7002B2429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BCD2028B162F7002B2429 /* ContentView.swift in Sources */,
+				2F4BCD1E28B162F7002B2429 /* ThambiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F4BCD2328B162F7002B2429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F4BCD2428B162F7002B2429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F4BCD2628B162F7002B2429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YLN955XP2H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iStudio.Thambi;
+				PRODUCT_NAME = Thambi;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F4BCD2728B162F7002B2429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iStudio.Thambi;
+				PRODUCT_NAME = Thambi;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F4BCD2928B162F7002B2429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iStudio.Thambi;
+				PRODUCT_NAME = Thambi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2F4BCD2A28B162F7002B2429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iStudio.Thambi;
+				PRODUCT_NAME = Thambi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F4BCD0B28B162F3002B2429 /* Build configuration list for PBXProject "Thambi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4BCD2328B162F7002B2429 /* Debug */,
+				2F4BCD2428B162F7002B2429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4BCD2528B162F7002B2429 /* Build configuration list for PBXNativeTarget "Thambi (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4BCD2628B162F7002B2429 /* Debug */,
+				2F4BCD2728B162F7002B2429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4BCD2828B162F7002B2429 /* Build configuration list for PBXNativeTarget "Thambi (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4BCD2928B162F7002B2429 /* Debug */,
+				2F4BCD2A28B162F7002B2429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F4BCD0828B162F3002B2429 /* Project object */;
+}
